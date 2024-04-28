@@ -4,27 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa29353f-5b11-419e-b7e7-518646c6ff08" name="Changes" comment="데이터 타입까지">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/MultiplyByFour.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/MultiplyByThree.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/MultiplyByTwo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Functions/SayHello.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpressions/If1.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpressions/If2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpressions/If3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpressions/If4.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpressions/If5.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpressions/If6.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpressions/OneOrTheOther.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/IfExpressions/TrueOrFalse.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NumberTypes/BMIMetric.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NumberTypes/InferInt.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NumberTypes/OpOrder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StringTemplates/ExpressionInTemplate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StringTemplates/StringConcatenation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StringTemplates/StringTemplate.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/StringTemplates/TripleQuotes.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="fa29353f-5b11-419e-b7e7-518646c6ff08" name="Changes" comment="~08/09">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Booleans/Open.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NumberTypes/BiiggestLong.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NumberTypes/LongConstants.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NumberTypes/UsingLong.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RepetitionWithWhile/DoWhlileLoop.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +48,9 @@
   "keyToString": {
     "Gradle.Build my_first_kotlin.executor": "Run",
     "Kotlin.AVarlsMutableKt.executor": "Run",
+    "Kotlin.BMIMetricKt.executor": "Run",
+    "Kotlin.BiiggestLongKt.executor": "Run",
+    "Kotlin.DoWhlileLoopKt.executor": "Run",
     "Kotlin.ExpressionInTemplateKt.executor": "Run",
     "Kotlin.If1Kt.executor": "Run",
     "Kotlin.If2Kt.executor": "Run",
@@ -71,12 +60,15 @@
     "Kotlin.If6Kt.executor": "Run",
     "Kotlin.InferIntKt.executor": "Run",
     "Kotlin.InferenceKt.executor": "Run",
+    "Kotlin.IntegerOverflowKt.executor": "Run",
+    "Kotlin.LongConstantsKt.executor": "Debug",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.MultiplyByFourKt.executor": "Run",
     "Kotlin.MultiplyByThreeKt.executor": "Run",
     "Kotlin.MultiplyByTwoKt.executor": "Run",
     "Kotlin.OneOrTheOtherKt.executor": "Run",
     "Kotlin.OpOrderKt.executor": "Run",
+    "Kotlin.Open1Kt.executor": "Run",
     "Kotlin.SayHelloKt.executor": "Run",
     "Kotlin.StringConcatenationKt.executor": "Run",
     "Kotlin.StringPlusNumberKt.executor": "Run",
@@ -84,6 +76,7 @@
     "Kotlin.TripleQuotesKt.executor": "Run",
     "Kotlin.TrueOrFalseKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
+    "Kotlin.UsingLongKt.executor": "Run",
     "Kotlin.ValsKt.executor": "Run",
     "Kotlin.VarsKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -104,37 +97,37 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/DataTypes" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.OpOrderKt">
-    <configuration name="ExpressionInTemplateKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.StringTemplates.ExpressionInTemplateKt" />
+  <component name="RunManager" selected="Kotlin.DoWhlileLoopKt">
+    <configuration name="BiiggestLongKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.NumberTypes.BiiggestLongKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InferIntKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.NumberTypes.InferIntKt" />
+    <configuration name="DoWhlileLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.RepetitionWithWhile.DoWhlileLoopKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpOrderKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.NumberTypes.OpOrderKt" />
+    <configuration name="LongConstantsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.NumberTypes.LongConstantsKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringConcatenationKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.StringTemplates.StringConcatenationKt" />
+    <configuration name="OpenKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.Booleans.OpenKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TripleQuotesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.StringTemplates.TripleQuotesKt" />
+    <configuration name="UsingLongKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.NumberTypes.UsingLongKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.OpOrderKt" />
-        <item itemvalue="Kotlin.InferIntKt" />
-        <item itemvalue="Kotlin.TripleQuotesKt" />
-        <item itemvalue="Kotlin.ExpressionInTemplateKt" />
-        <item itemvalue="Kotlin.StringConcatenationKt" />
+        <item itemvalue="Kotlin.DoWhlileLoopKt" />
+        <item itemvalue="Kotlin.OpenKt" />
+        <item itemvalue="Kotlin.BiiggestLongKt" />
+        <item itemvalue="Kotlin.UsingLongKt" />
+        <item itemvalue="Kotlin.LongConstantsKt" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714049815835</updated>
       <workItem from="1714049816863" duration="9732000" />
-      <workItem from="1714224458695" duration="4293000" />
+      <workItem from="1714224458695" duration="8732000" />
     </task>
     <task id="LOCAL-00001" summary="데이터 타입까지">
       <option name="closed" value="true" />
@@ -177,7 +170,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714054564556</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="~08/09">
+      <option name="closed" value="true" />
+      <created>1714229958527</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714229958527</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="데이터 타입까지" />
-    <option name="LAST_COMMIT_MESSAGE" value="데이터 타입까지" />
+    <MESSAGE value="~08/09" />
+    <option name="LAST_COMMIT_MESSAGE" value="~08/09" />
   </component>
 </project>
