@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa29353f-5b11-419e-b7e7-518646c6ff08" name="Changes" comment="~08/09">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Booleans/Open.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NumberTypes/BiiggestLong.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NumberTypes/LongConstants.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/NumberTypes/UsingLong.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/RepetitionWithWhile/DoWhlileLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CreatingClasses/Hamster.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/DefiningRanges.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/ForWithRanges.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/IndexIntoString.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/RepeatThreeTimes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/SumUsingRange.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Visibility/Cookie.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Visibility/RecordAnimals.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +29,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Kotlin Class" />
+        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -50,14 +53,19 @@
     "Kotlin.AVarlsMutableKt.executor": "Run",
     "Kotlin.BMIMetricKt.executor": "Run",
     "Kotlin.BiiggestLongKt.executor": "Run",
+    "Kotlin.CookieKt.executor": "Run",
+    "Kotlin.DefiningRangesKt.executor": "Run",
     "Kotlin.DoWhlileLoopKt.executor": "Run",
     "Kotlin.ExpressionInTemplateKt.executor": "Run",
+    "Kotlin.ForWithRangesKt.executor": "Run",
+    "Kotlin.HamsterKt.executor": "Run",
     "Kotlin.If1Kt.executor": "Run",
     "Kotlin.If2Kt.executor": "Run",
     "Kotlin.If3Kt.executor": "Run",
     "Kotlin.If4Kt.executor": "Run",
     "Kotlin.If5Kt.executor": "Run",
     "Kotlin.If6Kt.executor": "Run",
+    "Kotlin.IndexIntoStringKt.executor": "Run",
     "Kotlin.InferIntKt.executor": "Run",
     "Kotlin.InferenceKt.executor": "Run",
     "Kotlin.IntegerOverflowKt.executor": "Run",
@@ -69,10 +77,13 @@
     "Kotlin.OneOrTheOtherKt.executor": "Run",
     "Kotlin.OpOrderKt.executor": "Run",
     "Kotlin.Open1Kt.executor": "Run",
+    "Kotlin.RecordAnimalsKt.executor": "Run",
+    "Kotlin.RepeatThreeTimesKt.executor": "Run",
     "Kotlin.SayHelloKt.executor": "Run",
     "Kotlin.StringConcatenationKt.executor": "Run",
     "Kotlin.StringPlusNumberKt.executor": "Run",
     "Kotlin.StringTemplateKt.executor": "Run",
+    "Kotlin.SumUsingRangeKt.executor": "Run",
     "Kotlin.TripleQuotesKt.executor": "Run",
     "Kotlin.TrueOrFalseKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
@@ -93,41 +104,44 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Visibility" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/DataTypes" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.DoWhlileLoopKt">
-    <configuration name="BiiggestLongKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.NumberTypes.BiiggestLongKt" />
+  <component name="RunManager" selected="Kotlin.CookieKt">
+    <configuration name="CookieKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.Visibility.CookieKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DoWhlileLoopKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.RepetitionWithWhile.DoWhlileLoopKt" />
+    <configuration name="ForWithRangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.LoopingAngRanges.ForWithRangesKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongConstantsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.NumberTypes.LongConstantsKt" />
+    <configuration name="HamsterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.CreatingClasses.HamsterKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OpenKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.Booleans.OpenKt" />
+    <configuration name="IndexIntoStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.LoopingAngRanges.IndexIntoStringKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsingLongKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.NumberTypes.UsingLongKt" />
+    <configuration name="RecordAnimalsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.Visibility.RecordAnimalsKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.DoWhlileLoopKt" />
-        <item itemvalue="Kotlin.OpenKt" />
-        <item itemvalue="Kotlin.BiiggestLongKt" />
-        <item itemvalue="Kotlin.UsingLongKt" />
-        <item itemvalue="Kotlin.LongConstantsKt" />
+        <item itemvalue="Kotlin.CookieKt" />
+        <item itemvalue="Kotlin.RecordAnimalsKt" />
+        <item itemvalue="Kotlin.HamsterKt" />
+        <item itemvalue="Kotlin.IndexIntoStringKt" />
+        <item itemvalue="Kotlin.ForWithRangesKt" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714049815835</updated>
       <workItem from="1714049816863" duration="9732000" />
-      <workItem from="1714224458695" duration="8732000" />
+      <workItem from="1714224458695" duration="15024000" />
     </task>
     <task id="LOCAL-00001" summary="데이터 타입까지">
       <option name="closed" value="true" />
@@ -178,7 +192,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714229958527</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="~08/09">
+      <option name="closed" value="true" />
+      <created>1714292337826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714292337826</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
