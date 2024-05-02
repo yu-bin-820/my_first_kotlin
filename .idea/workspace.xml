@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa29353f-5b11-419e-b7e7-518646c6ff08" name="Changes" comment="~08/09">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/CreatingClasses/Hamster.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/DefiningRanges.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/ForWithRanges.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/IndexIntoString.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/RepeatThreeTimes.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/LoopingAngRanges/SumUsingRange.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Visibility/Cookie.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Visibility/RecordAnimals.kt" afterDir="false" />
+    <list default="true" id="fa29353f-5b11-419e-b7e7-518646c6ff08" name="Changes" comment="1/20 가시성 제한">
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exception/AverageIncomeWithException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exception/AverageIncomeWithNull.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Exception/IntrudocingNull.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/List/MutableList.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Testing/TDDWorks.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,13 +28,20 @@
       <list>
         <option value="package-info" />
         <option value="Class" />
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="JavaScript File" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -51,6 +56,8 @@
   "keyToString": {
     "Gradle.Build my_first_kotlin.executor": "Run",
     "Kotlin.AVarlsMutableKt.executor": "Run",
+    "Kotlin.AverageIncomeWithExceptionKt.executor": "Run",
+    "Kotlin.AverageIncomeWithNullKt.executor": "Run",
     "Kotlin.BMIMetricKt.executor": "Run",
     "Kotlin.BiiggestLongKt.executor": "Run",
     "Kotlin.CookieKt.executor": "Run",
@@ -69,21 +76,25 @@
     "Kotlin.InferIntKt.executor": "Run",
     "Kotlin.InferenceKt.executor": "Run",
     "Kotlin.IntegerOverflowKt.executor": "Run",
+    "Kotlin.IntrudocingNullKt.executor": "Run",
     "Kotlin.LongConstantsKt.executor": "Debug",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.MultiplyByFourKt.executor": "Run",
     "Kotlin.MultiplyByThreeKt.executor": "Run",
     "Kotlin.MultiplyByTwoKt.executor": "Run",
+    "Kotlin.MutableListKt.executor": "Run",
     "Kotlin.OneOrTheOtherKt.executor": "Run",
     "Kotlin.OpOrderKt.executor": "Run",
     "Kotlin.Open1Kt.executor": "Run",
     "Kotlin.RecordAnimalsKt.executor": "Run",
     "Kotlin.RepeatThreeTimesKt.executor": "Run",
     "Kotlin.SayHelloKt.executor": "Run",
+    "Kotlin.SolutionKt.executor": "Run",
     "Kotlin.StringConcatenationKt.executor": "Run",
     "Kotlin.StringPlusNumberKt.executor": "Run",
     "Kotlin.StringTemplateKt.executor": "Run",
     "Kotlin.SumUsingRangeKt.executor": "Run",
+    "Kotlin.TDDWorksKt.executor": "Run",
     "Kotlin.TripleQuotesKt.executor": "Run",
     "Kotlin.TrueOrFalseKt.executor": "Run",
     "Kotlin.TypesKt.executor": "Run",
@@ -100,6 +111,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "actions.on.save",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -111,37 +123,37 @@
       <recent name="$PROJECT_DIR$/src/main/kotlin/DataTypes" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CookieKt">
-    <configuration name="CookieKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.Visibility.CookieKt" />
+  <component name="RunManager" selected="Kotlin.MutableListKt">
+    <configuration name="AverageIncomeWithExceptionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.Exception.AverageIncomeWithExceptionKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForWithRangesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.LoopingAngRanges.ForWithRangesKt" />
+    <configuration name="AverageIncomeWithNullKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.Exception.AverageIncomeWithNullKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HamsterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.CreatingClasses.HamsterKt" />
+    <configuration name="IntrudocingNullKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.Exception.IntrudocingNullKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexIntoStringKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.LoopingAngRanges.IndexIntoStringKt" />
+    <configuration name="MutableListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.List.MutableListKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecordAnimalsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.security.practice.Visibility.RecordAnimalsKt" />
+    <configuration name="TDDWorksKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.security.practice.Testing.TDDWorksKt" />
       <module name="my_first_kotlin.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.CookieKt" />
-        <item itemvalue="Kotlin.RecordAnimalsKt" />
-        <item itemvalue="Kotlin.HamsterKt" />
-        <item itemvalue="Kotlin.IndexIntoStringKt" />
-        <item itemvalue="Kotlin.ForWithRangesKt" />
+        <item itemvalue="Kotlin.MutableListKt" />
+        <item itemvalue="Kotlin.AverageIncomeWithExceptionKt" />
+        <item itemvalue="Kotlin.AverageIncomeWithNullKt" />
+        <item itemvalue="Kotlin.IntrudocingNullKt" />
+        <item itemvalue="Kotlin.TDDWorksKt" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714049815835</updated>
       <workItem from="1714049816863" duration="9732000" />
-      <workItem from="1714224458695" duration="15024000" />
+      <workItem from="1714224458695" duration="26188000" />
     </task>
     <task id="LOCAL-00001" summary="데이터 타입까지">
       <option name="closed" value="true" />
@@ -200,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714292337826</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1/20 가시성 제한">
+      <option name="closed" value="true" />
+      <created>1714543213803</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714543213803</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +240,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="데이터 타입까지" />
     <MESSAGE value="~08/09" />
-    <option name="LAST_COMMIT_MESSAGE" value="~08/09" />
+    <MESSAGE value="1/20 가시성 제한" />
+    <option name="LAST_COMMIT_MESSAGE" value="1/20 가시성 제한" />
   </component>
 </project>
